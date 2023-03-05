@@ -73,6 +73,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E215B8E29B21986001BEA1E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				2E2861552962B037006B1C26 /* ContentView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		2E215B8F29B219E4001BEA1E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2E28617D2962B057006B1C26 /* OkashiData.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		2E2861472962B037006B1C26 = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +112,11 @@
 		2E2861522962B037006B1C26 /* Okashi */ = {
 			isa = PBXGroup;
 			children = (
+				2E215B8F29B219E4001BEA1E /* models */,
+				2E215B8E29B21986001BEA1E /* views */,
 				2E2861532962B037006B1C26 /* OkashiApp.swift */,
-				2E2861552962B037006B1C26 /* ContentView.swift */,
 				2E2861572962B039006B1C26 /* Assets.xcassets */,
 				2E2861592962B039006B1C26 /* Preview Content */,
-				2E28617D2962B057006B1C26 /* OkashiData.swift */,
 			);
 			path = Okashi;
 			sourceTree = "<group>";
